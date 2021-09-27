@@ -1,0 +1,27 @@
+.name-container{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background: white;
+    color: #000;
+    box-shadow: 0px 0px 3px 1px #96b3ad;
+    padding: 5px;
+    border-radius: 5px;
+}
+.name-container:hover{
+    background: #b5b1d48a;
+}
+.name-container img{
+    width: 40px;
+    height: 40px;
+    background: #8a2be2;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.name-container p{
+    margin: 0;
+    font-family: sans-serif;
+}
